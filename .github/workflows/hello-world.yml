@@ -17,3 +17,5 @@ jobs:
       run: echo "How are you doing?"  
     - name: create the directory
       run: mkdir pvs1
+    - name: list files
+      run: ls -lrt  
