@@ -1,0 +1,14 @@
+name: Hello World Workflow
+
+on:
+  push:
+    branches:
+      - main # Trigger on pushes to the main branch
+
+jobs:
+  print-hello:
+    runs-on: ubuntu-latest # Run on an Ubuntu virtual machine
+
+    steps:
+    - name: Say Hello
+      run: echo "Hello World!" # Execute a shell command to print "Hello World!"
