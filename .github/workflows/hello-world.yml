@@ -12,5 +12,8 @@ jobs:
     steps:
     - name: Say Hello
       run: echo "Hello World!" # Execute a shell command to print "Hello World!"
+      
     - name: Ask the status of health
       run: echo "How are you doing?"  
+    - name: create the directory
+      run: mkdir pvs1
